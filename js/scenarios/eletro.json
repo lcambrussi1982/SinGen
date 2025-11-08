@@ -1,0 +1,50 @@
+{
+  "name": "Eletro — Mercado Nacional",
+  "rounds": 6,
+  "economy": {
+    "inflationYear": 0.06,
+    "selicYear": 0.15,
+    "fxBRLUSD": 5.6
+  },
+  "taxes": {
+    "icms": 0.18,
+    "pis": 0.0165,
+    "cofins": 0.076,
+    "ipi": 0.04
+  },
+  "demand": {
+    "base": {
+      "premium": 12000,
+      "massa": 38000
+    },
+    "seasonality": [
+      1,
+      1.05,
+      1.1,
+      0.95,
+      0.9,
+      1.2,
+      1.3,
+      0.85
+    ],
+    "elasticities": {
+      "price": {
+        "premium": -0.9,
+        "massa": -1.4
+      },
+      "ads": 0.35
+    },
+    "weights": {
+      "quality": 0.25,
+      "service": 0.2,
+      "esg": 0.1
+    }
+  },
+  "events": [
+    {
+      "round": 3,
+      "type": "fxShock",
+      "delta": 0.1
+    }
+  ]
+}

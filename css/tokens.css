@@ -1,0 +1,24 @@
+:root{
+  --bg: #0b1020;
+  --surface: #131a2b;
+  --card: #19233a;
+  --text: #e6edf7;
+  --muted: #98a5c0;
+  --primary: #5ee1ff;
+  --accent: #82ffa1;
+  --danger: #ff6b6b;
+  --warning: #ffd166;
+  --good: #74d99f;
+  --radius: 14px;
+  --gap: 14px;
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+@media (prefers-color-scheme: light){
+  :root{
+    --bg: #f7f9fe;
+    --surface: #f0f3fb;
+    --card: #ffffff;
+    --text: #0f1222;
+    --muted: #5a6b87;
+  }
+}
